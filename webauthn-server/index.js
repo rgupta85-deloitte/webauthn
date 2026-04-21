@@ -159,7 +159,7 @@ app.post('/login/verify', async (req, res) => {
 });
 
 // ── Start ─────────────────────────────────────────────────────────────────────
-app.listen(PORT, '127.0.0.1', () => {
+app.listen(PORT, () => {
   console.log(`\nWebAuthn server running`);
   console.log(`  URL    : http://127.0.0.1:${PORT}`);
   console.log(`  RP ID  : ${RP_ID}`);
