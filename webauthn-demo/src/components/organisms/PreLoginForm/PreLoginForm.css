@@ -1,0 +1,40 @@
+.pre-login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+}
+
+.pre-login-form__readonly-fields {
+  display: flex;
+  gap: 2rem;
+  background-color: var(--color-disabled-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 0.875rem 1rem;
+}
+
+.pre-login-form__readonly-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.pre-login-form__readonly-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+}
+
+.pre-login-form__readonly-value {
+  font-size: 0.9rem;
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.pre-login-form__submit {
+  margin-top: 0.25rem;
+}
+
+.pre-login-form__result {
+  margin-top: 0;
+}

@@ -1,0 +1,15 @@
+.pre-login-interim-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+}
+
+.pre-login-interim-form__fields {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+.pre-login-interim-form__submit {
+  margin-top: 0.25rem;
+}
